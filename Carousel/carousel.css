@@ -1,0 +1,60 @@
+.hi-carousel {
+  position: relative; }
+  .hi-carousel .carousel-list {
+    position: relative;
+    height: 400px; }
+  .hi-carousel .carousel-item {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-color: #eee;
+    background-position: center center;
+    background-repeat: no-repeat; }
+  .hi-carousel .to-prev, .hi-carousel .to-next {
+    position: absolute;
+    top: 50%;
+    width: 60px;
+    height: 100px;
+    line-height: 100px;
+    margin-top: -50px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.75;
+    background-color: #fff;
+    transition: all 0.1s; }
+  .hi-carousel .to-prev {
+    left: 5px; }
+    .hi-carousel .to-prev:hover {
+      left: 0;
+      width: 65px; }
+  .hi-carousel .to-next {
+    right: 5px; }
+    .hi-carousel .to-next:hover {
+      right: 0;
+      width: 65px; }
+  .hi-carousel .index-list {
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center; }
+  .hi-carousel .to-index {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    line-height: 8px;
+    padding: 3px;
+    margin: 0 2px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1px solid #fff;
+    border-radius: 50%;
+    tansition: all 0.2s; }
+    .hi-carousel .to-index:hover:not(.active) {
+      padding: 4px;
+      margin: 0 1px -1px;
+      background-color: white;
+      cursor: pointer; }
+    .hi-carousel .to-index.active {
+      background-color: rgba(0, 0, 0, 0.25); }
