@@ -12,11 +12,13 @@
             <div class="carousel-item active" style="background-image: url('demo_images/1.jpg')"></div>
             <div class="carousel-item" style="background-image: url('demo_images/2.jpg')"></div>
             <div class="carousel-item" style="background-image: url('demo_images/3.jpg')"></div>
+            <div class="carousel-item" style="background-image: url('demo_images/4.jpg')"></div>
         </div>
         <div class="to to-prev"><</div>
         <div class="to to-next">></div>
         <div class="index-list">
             <i class="to to-index active"></i>
+            <i class="to to-index"></i>
             <i class="to to-index"></i>
             <i class="to to-index"></i>
         </div>
@@ -28,7 +30,9 @@
 <script type="text/javascript">
     // init
     new HiCarousel({
-        dom: '#my_carousel'
+        dom: '#my_carousel',
+        type: 'scroll',
+        time: 400
     });
 </script>
 </html>
