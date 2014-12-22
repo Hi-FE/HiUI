@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f609027-ed77-4da2-934a-3be80ebd986b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Carousel/carousel.css" afterPath="$PROJECT_DIR$/Carousel/carousel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modal/modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modal/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modal/modal.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Carousel/carousel.html" afterPath="$PROJECT_DIR$/Carousel/carousel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Carousel/carousel.js" afterPath="$PROJECT_DIR$/Carousel/carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Carousel/carousel.scss" afterPath="$PROJECT_DIR$/Carousel/carousel.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HiUI.iws" />
@@ -32,7 +32,7 @@
       <file leaf-file-name="carousel.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Carousel/carousel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="15" selection-start="1214" selection-end="1214" vertical-scroll-proportion="-17.541666" vertical-offset="89" max-vertical-offset="645">
+            <state line="32" column="31" selection-start="1190" selection-end="1190" vertical-scroll-proportion="-15.666667" vertical-offset="104" max-vertical-offset="675">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -43,31 +43,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="carousel.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Carousel/carousel.js">
+      <file leaf-file-name="modal.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modal/modal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="6" selection-start="3952" selection-end="3952" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="750">
-              <folding>
-                <element signature="e#69#286#0" expanded="false" />
-                <element signature="e#1107#1743#0" expanded="false" />
-                <element signature="e#1827#3041#0" expanded="false" />
-                <element signature="e#3084#3945#0" expanded="false" />
-              </folding>
+            <state line="10" column="32" selection-start="188" selection-end="200" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="435">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="carousel.scss" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Carousel/carousel.scss">
+      <file leaf-file-name="modal.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modal/modal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="8" selection-start="2629" selection-end="2629" vertical-scroll-proportion="0.44047618" vertical-offset="790" max-vertical-offset="1260">
-              <folding>
-                <element signature="e#100#174#0" expanded="false" />
-                <element signature="e#198#619#0" expanded="false" />
-                <element signature="e#1912#2016#0" expanded="false" />
-                <element signature="e#2030#2135#0" expanded="false" />
-                <element signature="e#2152#2272#0" expanded="false" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modal.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Modal/modal.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="0.19408503" vertical-offset="0" max-vertical-offset="541">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,9 +89,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Carousel/carousel.css" />
-        <option value="$PROJECT_DIR$/Carousel/carousel.html" />
         <option value="$PROJECT_DIR$/Carousel/carousel.scss" />
         <option value="$PROJECT_DIR$/Carousel/carousel.js" />
+        <option value="$PROJECT_DIR$/Modal/modal.js" />
+        <option value="$PROJECT_DIR$/Carousel/carousel.html" />
+        <option value="$PROJECT_DIR$/Modal/modal.html" />
+        <option value="$PROJECT_DIR$/Modal/modal.scss" />
       </list>
     </option>
   </component>
@@ -128,6 +129,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -156,13 +158,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Modal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HiUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HiUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Carousel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,28 +212,33 @@
       <created>1418629424110</created>
       <updated>1418629424110</updated>
     </task>
+    <task id="LOCAL-00001" summary="add carousel type scroll">
+      <created>1418896189529</created>
+      <updated>1418896189529</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22528364" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23338735" sideWeight="0.84232956" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15767045" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15767045" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33048433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -238,6 +258,20 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Carousel/carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="6" selection-start="3952" selection-end="3952" vertical-scroll-proportion="0.0" vertical-offset="1560" max-vertical-offset="1830">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Carousel/carousel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="8" selection-start="2629" selection-end="2629" vertical-scroll-proportion="0.0" vertical-offset="1455" max-vertical-offset="1740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Carousel/carousel.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="33" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="585">
@@ -253,33 +287,20 @@
     <entry file="file://$PROJECT_DIR$/Carousel/carousel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="18" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1050">
-          <folding>
-            <element signature="e#69#286#0" expanded="false" />
-            <element signature="e#1107#1743#0" expanded="false" />
-            <element signature="e#1827#3041#0" expanded="false" />
-            <element signature="e#3084#3945#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Carousel/carousel.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="14" selection-start="1314" selection-end="1314" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1245">
-          <folding>
-            <element signature="e#100#174#0" expanded="false" />
-            <element signature="e#198#619#0" expanded="false" />
-            <element signature="e#1912#2016#0" expanded="false" />
-            <element signature="e#2030#2135#0" expanded="false" />
-            <element signature="e#2152#2272#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Carousel/carousel.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="990">
-          <folding />
-        </state>
+        <state line="60" column="0" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="990" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Carousel/carousel.html">
@@ -297,38 +318,46 @@
     <entry file="file://$PROJECT_DIR$/Carousel/carousel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <folding>
-            <element signature="e#69#286#0" expanded="false" />
-            <element signature="e#1107#1743#0" expanded="false" />
-            <element signature="e#1827#3041#0" expanded="false" />
-            <element signature="e#3084#3945#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Carousel/carousel.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="23" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="120">
-          <folding>
-            <element signature="e#100#174#0" expanded="false" />
-            <element signature="e#198#619#0" expanded="false" />
-            <element signature="e#1912#2016#0" expanded="false" />
-            <element signature="e#2030#2135#0" expanded="false" />
-            <element signature="e#2152#2272#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Carousel/carousel.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="2067" selection-end="2067" vertical-scroll-proportion="0.0" vertical-offset="876" max-vertical-offset="1320">
+        <state line="82" column="0" selection-start="2067" selection-end="2067" vertical-scroll-proportion="0.0" vertical-offset="876" max-vertical-offset="1320" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Carousel/carousel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="8" selection-start="2629" selection-end="2629" vertical-scroll-proportion="0.0" vertical-offset="1455" max-vertical-offset="1740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Carousel/carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="6" selection-start="3952" selection-end="3952" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modal/modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="444">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Carousel/carousel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="15" selection-start="1214" selection-end="1214" vertical-scroll-proportion="-17.541666" vertical-offset="89" max-vertical-offset="645">
+        <state line="32" column="31" selection-start="1190" selection-end="1190" vertical-scroll-proportion="-15.666667" vertical-offset="104" max-vertical-offset="675">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -338,28 +367,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Carousel/carousel.js">
+    <entry file="file://$PROJECT_DIR$/Modal/modal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="6" selection-start="3952" selection-end="3952" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="750">
-          <folding>
-            <element signature="e#69#286#0" expanded="false" />
-            <element signature="e#1107#1743#0" expanded="false" />
-            <element signature="e#1827#3041#0" expanded="false" />
-            <element signature="e#3084#3945#0" expanded="false" />
-          </folding>
+        <state line="10" column="32" selection-start="188" selection-end="200" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="435">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Carousel/carousel.scss">
+    <entry file="file://$PROJECT_DIR$/Modal/modal.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="8" selection-start="2629" selection-end="2629" vertical-scroll-proportion="0.44047618" vertical-offset="790" max-vertical-offset="1260">
-          <folding>
-            <element signature="e#100#174#0" expanded="false" />
-            <element signature="e#198#619#0" expanded="false" />
-            <element signature="e#1912#2016#0" expanded="false" />
-            <element signature="e#2030#2135#0" expanded="false" />
-            <element signature="e#2152#2272#0" expanded="false" />
-          </folding>
+        <state line="7" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="0.19408503" vertical-offset="0" max-vertical-offset="541">
+          <folding />
         </state>
       </provider>
     </entry>
