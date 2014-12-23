@@ -3,7 +3,7 @@
     'use strict';
 
 
-    function HiCarousel(options) {
+    function HiModal(options) {
         this.$carousel = $(options.dom);
         this.type = options.type ? options.type : 'scroll';
         this.time = options.time ? options.time : '400';
@@ -12,7 +12,7 @@
         this.switchControl();
     }
 
-    HiCarousel.prototype.init = function() {
+    HiModal.prototype.init = function() {
         this.$items = this.$carousel.find('.carousel-item');
         this.$list = this.$carousel.find('.carousel-list');
         this.click_limit = false;
@@ -32,7 +32,7 @@
         }
     };
 
-    HiCarousel.prototype.switchControl = function() {
+    HiModal.prototype.switchControl = function() {
         var self = this;
 
         self.$carousel.on('click', '.to', function() {
@@ -55,7 +55,7 @@
         });
     };
 
-    HiCarousel.prototype.switchByType = {
+    HiModal.prototype.switchByType = {
         'fade' : function(self, $this) {
             var $active_item = self.$carousel.find('.carousel-item.active');
 
@@ -104,7 +104,7 @@
         }
     };
 
-    window.HiCarousel = HiCarousel;
+    window.HiModal = HiCarousel;
 
 
 }(jQuery);

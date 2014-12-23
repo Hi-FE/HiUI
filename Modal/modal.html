@@ -2,12 +2,15 @@
 <html>
 <head>
     <title>HiUI.Modal</title>
-    <link href="carousel.css" type="text/css" rel="stylesheet">
+    <link href="modal.css" type="text/css" rel="stylesheet">
 </head>
 
 
 <body>
-    <div class="hi-modal">
+    <button data-target="my_modal">show modal</button>
+
+
+    <div class="hi-modal" id="my_modal">
         <div class="full-overlay"></div>
         <div class="modal-wrap"></div>
     </div>
@@ -17,7 +20,9 @@
     <script src="modal.js" type="text/javascript"></script>
     <script type="text/javascript">
         // init
-
+        new HiModal({
+            dom : 'my_modal'
+        });
     </script>
 </body>
 

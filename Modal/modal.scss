@@ -1,10 +1,22 @@
 .hi-modal {
     .full-overlay {
+        display: none;
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-
+        background-repeat: repeat;
+        background-color: rgba(0,0,0,0.7);
+    }
+    .modal-wrap {
+        display: none;
+        width: 500px;
+        height: 300px;
+        position: fixed;
+        top: 0;
+        left: 50%;
+        margin-left: -250px;
+        background-color: #fff;
     }
 }
