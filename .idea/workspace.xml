@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f609027-ed77-4da2-934a-3be80ebd986b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carousel/demo_images/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modal/images/black_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modal/images/white_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modal/modal.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Carousel/carousel.html" afterPath="$PROJECT_DIR$/Carousel/carousel.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modal/modal.html" afterPath="$PROJECT_DIR$/Modal/modal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modal/modal.js" afterPath="$PROJECT_DIR$/Modal/modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modal/modal.scss" afterPath="$PROJECT_DIR$/Modal/modal.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HiUI.iws" />
@@ -32,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="carousel.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="carousel.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Carousel/carousel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="31" selection-start="1190" selection-end="1190" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="675">
+            <state line="27" column="33" selection-start="978" selection-end="978" vertical-scroll-proportion="0.71666664" vertical-offset="104" max-vertical-offset="675">
               <folding />
             </state>
           </provider>
@@ -50,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modal.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="modal.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Modal/modal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="30" selection-start="329" selection-end="329" vertical-scroll-proportion="0.5" vertical-offset="0" max-vertical-offset="555">
+            <state line="18" column="33" selection-start="384" selection-end="384" vertical-scroll-proportion="-5.625" vertical-offset="135" max-vertical-offset="555">
               <folding />
             </state>
           </provider>
@@ -97,11 +92,11 @@
       <list>
         <option value="$PROJECT_DIR$/Carousel/carousel.css" />
         <option value="$PROJECT_DIR$/Carousel/carousel.scss" />
-        <option value="$PROJECT_DIR$/Carousel/carousel.html" />
         <option value="$PROJECT_DIR$/Carousel/carousel.js" />
-        <option value="$PROJECT_DIR$/Modal/modal.html" />
         <option value="$PROJECT_DIR$/Modal/modal.scss" />
         <option value="$PROJECT_DIR$/Modal/modal.js" />
+        <option value="$PROJECT_DIR$/Modal/modal.html" />
+        <option value="$PROJECT_DIR$/Carousel/carousel.html" />
       </list>
     </option>
   </component>
@@ -253,15 +248,19 @@
       <created>1419304245969</created>
       <updated>1419304245969</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add modal 0.0.2">
+      <created>1419393396564</created>
+      <updated>1419393396564</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32763532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32763532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -370,13 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Carousel/carousel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="31" selection-start="1190" selection-end="1190" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Modal/modal.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="26" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="435">
@@ -393,7 +385,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Modal/modal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="30" selection-start="329" selection-end="329" vertical-scroll-proportion="0.5" vertical-offset="0" max-vertical-offset="555">
+        <state line="18" column="33" selection-start="384" selection-end="384" vertical-scroll-proportion="-5.625" vertical-offset="135" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Carousel/carousel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="33" selection-start="978" selection-end="978" vertical-scroll-proportion="0.71666664" vertical-offset="104" max-vertical-offset="675">
           <folding />
         </state>
       </provider>
