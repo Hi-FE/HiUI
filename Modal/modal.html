@@ -11,7 +11,7 @@
 
 
     <div class="hi-modal" id="my_modal">
-        <div class="full-overlay"></div>
+        <div class="full-overlay" data-close="my_modal"></div>
         <div class="modal-wrap"></div>
     </div>
 
@@ -21,7 +21,10 @@
     <script type="text/javascript">
         // init
         new HiModal({
-            dom : 'my_modal'
+            dom          : 'my_modal',
+            bg_type      : 'black',
+            default_show : false
+
         });
     </script>
 </body>
