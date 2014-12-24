@@ -6,8 +6,11 @@
   right: 0;
   bottom: 0;
   background-repeat: repeat;
-  z-index: 999;
-  background-color: rgba(0, 0, 0, 0.7); }
+  z-index: 999; }
+  .hi-modal .full-overlay.black {
+    background-image: url("images/black_bg.png"); }
+  .hi-modal .full-overlay.white {
+    background-image: url("images/white_bg.png"); }
 .hi-modal .modal-wrap {
   display: none;
   width: 500px;

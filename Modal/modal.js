@@ -22,7 +22,7 @@
             this.$overlay.fadeIn(200);
             this.$modal.fadeIn(200);
         }
-
+        this.$overlay.addClass(this.bg_type);
     };
 
     HiModal.prototype.showControl = function() {

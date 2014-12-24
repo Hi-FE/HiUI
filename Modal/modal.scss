@@ -8,7 +8,12 @@
         bottom: 0;
         background-repeat: repeat;
         z-index: 999;
-        background-color: rgba(0,0,0,0.7);
+        &.black {
+            background-image: url("images/black_bg.png");
+        }
+        &.white {
+            background-image: url("images/white_bg.png");
+        }
     }
     .modal-wrap {
         display: none;
